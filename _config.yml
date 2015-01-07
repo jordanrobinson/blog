@@ -10,12 +10,12 @@ relative_permalinks: true
 title:            Jordan Robinson
 tagline:          'A Blog'
 description:      ''
-url:              http://hyde.getpoole.com
+url:              http://blog.jordanrobinson.co.uk
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Jordan Robinson'
+  url:            http://jordanrobinson.co.uk
 
 paginate:         5
 
