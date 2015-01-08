@@ -7,3 +7,7 @@ body {
 border-left: #66d9ef 3px solid;
 background-color: #111;
 }
+
+.sidebar a {
+    color: #DFDFDF;
+}
