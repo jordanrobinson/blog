@@ -17,3 +17,12 @@ background-color: #111;
     font-family: "Crimson Text",serif;
     font-size: 3.25rem;
 }
+
+.page-title, .post-title, .post-title a {
+    color: #DFDFDF;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #DFDFDF;
+}
