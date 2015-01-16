@@ -23,11 +23,9 @@ Then once I'd got tired of doing everything in a particularly long-winded way, I
 
 {% gist 868fffdfd5023e67c075 second.js %}
 
-This however had it's own problems, as I found when at first it just didn't work. I soon found there was a hack to get svgs working with the append method, found here:
+This however had it's own problems, as I found when at first it just didn't work. I soon found there was a hack to get svgs working with the append method, found here [on stack overflow](http://stackoverflow.com/a/13654655/1666167).
 
-http://stackoverflow.com/a/13654655/1666167
-
-and adapted slightly here:
+and then adapted slightly here:
 
 {% gist 868fffdfd5023e67c075 third.js %}
 
@@ -51,4 +49,4 @@ Finally, after a good deal of tweaks to the math and general tinkering, the effe
 
 ![alt text](http://blog.jordanrobinson.co.uk/public/images/diamonds.png "A d3 and css based diamond effect")
 
-This is still in the proof of concept stages, but it does go to show how easy it is to make something using d3 with a little persistence. The code will be up on github in a branch for the site redesign soon if you're interested, or if you want to see me experimenting in realtime, the JSBin is right here: 
+This is still in the proof of concept stages, but it does go to show how easy it is to make something using d3 with a little persistence. The code will be up on github in a branch for the site redesign soon if you're interested, or if you want to see me experimenting in realtime, the JSBin is right [here](http://jsbin.com/kogove/edit).
