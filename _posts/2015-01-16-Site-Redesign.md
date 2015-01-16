@@ -1,6 +1,9 @@
-Site redesign
+---
+layout: post
+title: Site Redesign
+---
 
-Originally, my homepage[] was basically just thrown together over a weekend. I knew what kind of design I wanted, but when it actually came to implementing it, I was a little stuck. The idea was to have a subtly animating grid of svg elements that blinked softly with some CSS3 transitions, pretty to look at, not particularly taxing on the CPU, and fun to implement.
+Originally, my [homepage](http://jordanrobinson.co.uk) was basically just thrown together over a weekend. I knew what kind of design I wanted, but when it actually came to implementing it, I was a little stuck. The idea was to have a subtly animating grid of svg elements that blinked softly with some CSS3 transitions, pretty to look at, not particularly taxing on the CPU, and fun to implement.
 
 However, when getting to add the number of svg elements I wanted to the page using the fantastic D3 library, the page chugged a good deal on load, taking a good 5 seconds or so to catch it's breath and render out the pretty squares. This wasn't really acceptable, so while it did look like I'd probably made a mistake somewhere like a D3 performance faux pas, I did want to get the site up and running quickly and as close to the initial vision I had.
 
@@ -8,7 +11,9 @@ So I did what anyone would do, I used a super huge table and styled the elements
 
 Since I had a little bit of free time over the past week, I've put together something closer to the original idea technology wise, but, since this is 2015 and squares are so last year, I decided to go with diamonds instead.
 
-image (caption) Pretty outdated these days, what with 2015 being year of the angle.
+![alt text](http://blog.jordanrobinson.co.uk/public/images/squares.png "A css based square effect")
+
+Pretty outdated these days, what with 2015 being year of the angle.
 
 Since I'd been burned before, I started off trying to go back to basic principles, and adding the svg elements through plain old javascript, using the <code>CreateNSElement</code> method and using triangles in the hope it would be half the problem of a diamond. While this worked, it was pretty clunky as you can see:
 
@@ -44,6 +49,6 @@ This is pretty hacky with lots of magic numbers, but it serves well to show how 
 
 Finally, after a good deal of tweaks to the math and general tinkering, the effect was taking shape!
 
-Image goes here
+![alt text](http://blog.jordanrobinson.co.uk/public/images/diamonds.png "A d3 and css based diamond effect")
 
 This is still in the proof of concept stages, but it does go to show how easy it is to make something using d3 with a little persistence. The code will be up on github in a branch for the site redesign soon if you're interested, or if you want to see me experimenting in realtime, the JSBin is right here: 
