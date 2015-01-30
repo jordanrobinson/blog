@@ -17,5 +17,5 @@ Once we've got Python fired up and we can check the version from the command lin
 From the JIRA CLI, we can do and automate all kinds of powerful stuff like scripts, cron jobs and basically whatever you feel like. As for clearing all your watched JIRA cases, this is as simple as getting a list of the cases, parsing them a little, and letting JIRA know we don't want to watch them anymore, so the command for that is as follows:
 
 {% gist 20aff742fc8f7b1bd77e %}
-
+ 
 Like I mentioned, this is the bash version of what you need to do, so with a little adaptation this can be applied to a powershell script. If you're the kind soul that does this, drop me an email and I'll make sure to update the post and give you credit.

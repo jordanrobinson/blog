@@ -49,5 +49,5 @@ This is pretty hacky with lots of magic numbers, but it serves well to show how 
 Finally, after a good deal of tweaks to the math and general tinkering, the effect was taking shape!
 
 ![alt text](http://blog.jordanrobinson.co.uk/public/images/diamonds.png "A d3 and css based diamond effect")
-
+ 
 This is still in the proof of concept stages, but it does go to show how easy it is to make something using d3 with a little persistence. The code will be up on github in a branch for the site redesign soon if you're interested, or if you want to see me experimenting in realtime, the JSBin is right [here](http://jsbin.com/kogove/edit).
