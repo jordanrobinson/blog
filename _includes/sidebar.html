@@ -9,66 +9,41 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
-    <img src="http://blog.jordanrobinson.co.uk/assets/images/android.jpg" alt="alt text">
-    <img src="http://blog.jordanrobinson.co.uk/public/images/android.jpg" alt="alt text">
-    <img src="http://blog.jordanrobinson.co.uk/public/images/android.jpg" alt="alt text">
-    <img src="http://blog.jordanrobinson.co.uk/public/images/android.jpg" alt="alt text">
-    <img src="http://blog.jordanrobinson.co.uk/public/images/android.jpg" alt="alt text">
+    <a href="https://github.com/JordanRobinson">
+      <img src="http://jordanrobinson.co.uk/assets/images/android.jpg" alt="alt text">
+    </a>
+    <a href="http://blog.jordanrobinson.co.uk">
+      <img src="http://jordanrobinson.co.uk/public/images/android.jpg" alt="alt text">
+    </a>
+    <a href="http://careers.stackoverflow.com/jordanrobinson">
+      <img src="http://jordanrobinson.co.uk/public/images/android.jpg" alt="alt text">
+    </a>
 
+    <a href="https://www.linkedin.com/in/jordanrobinsonuk">
+      <img src="http://jordanrobinson.co.uk/public/images/android.jpg" alt="alt text">
+    </a>
+    <a href="https://play.google.com/store/apps/developer?id=Jordan%20Robinson">
+      <img src="http://jordanrobinson.co.uk/public/images/android.jpg" alt="alt text">
+    </a>
+    <a href="mailto:me@jordanrobinson.co.uk">
+      <img src="http://jordanrobinson.co.uk/public/images/android.jpg" alt="alt text">
+    </a>
 
-    <nav class="sidebar-nav">
-      <div class="container" id="github">
-        <a href="https://github.com/JordanRobinson">
-          <img
-        </a>
-      </div>
+    {% comment %}
+    The code below dynamically generates a sidebar nav of pages with
+    `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
 
-      <div class="container" id="blog">
-        <a href="http://blog.jordanrobinson.co.uk">
-          <span id="blog-span"> </span>
-        </a>
-      </div>
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+    {% if node.title != null %}
+    {% if node.layout == "page" %}
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </nav>
 
-      <div class="container" id="stack">
-        <a href="http://careers.stackoverflow.com/jordanrobinson">
-          <span id="stack-span"> </span>
-        </a>
-      </div>
-
-      <div class="container" id="linkedin">
-        <a href="https://www.linkedin.com/in/jordanrobinsonuk">
-          <span id="linkedin-span"> </span>
-        </a>
-      </div>
-
-      <div class="container" id="android">
-        <a href="https://play.google.com/store/apps/developer?id=Jordan%20Robinson">
-          <span id="android-span"> </span>
-        </a>
-      </div>
-
-      <div class="container" id="mail">
-        <a href="mailto:me@jordanrobinson.co.uk">
-          <span id="mail-span"> </span>
-        </a>
-      </div>
-    </div>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </nav>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
-  </div>
+  <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+</div>
 </div>
