@@ -38,7 +38,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 30em) {
-		img {
+		.sidebar img {
 			display: inline;
+		}
+}
+
+@media (min-width: 48em) {
+		.sidebar img {
+			display: block;
 		}
 }
