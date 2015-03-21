@@ -8,6 +8,11 @@ border-left: #66d9ef 3px solid;
 background-color: #111;
 }
 
+.sidebar h1 {
+	text-align:center;
+	margin-bottom:10%;
+}
+
 .sidebar a {
     color: #DFDFDF;
 }
@@ -15,7 +20,12 @@ background-color: #111;
 .sidebar-about h1 {
     margin-top: 0px;
     font-family: "Crimson Text",serif;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
+}
+
+.sidebar img {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .page-title, .post-title, .post-title a {
