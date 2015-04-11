@@ -14,7 +14,7 @@ But this made me think, others shouldn't have to spend a few hours poring throug
 
 And so from that I created the build, spent a good amount of time figuring out JCenter, and got the library published.
 
-So now if anyone needs the AOSP colour picker, all they need to do is go [here.]() Or even just add the line
+So now if anyone needs the AOSP colour picker, all they need to do is go [here.](https://github.com/JordanRobinson/android-color-picker) Or even just add the line
 
 `compile 'uk.co.jordanrobinson:android-color-picker:1.0.1'`
 
