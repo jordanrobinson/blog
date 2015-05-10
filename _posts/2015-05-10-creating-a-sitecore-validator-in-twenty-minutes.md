@@ -40,7 +40,7 @@ So in the corresponding project for your Sitecore site, add a class where we spe
 
 After this it's just a case of overriding the Evaluate method that Sitecore gives you to validate your rules. My example is shown here and it's a pretty simple one:
 
-{% gist 13cbba3b7061d9eba8ad}
+{% gist 13cbba3b7061d9eba8ad %}
 
 As you can see we take in the parameter that we passed in from sitecore earlier, and use it to validate the item. 
 
