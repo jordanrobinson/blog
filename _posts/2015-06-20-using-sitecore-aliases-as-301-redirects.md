@@ -6,7 +6,7 @@ description: All about redirects and making a nice little pipeline modification 
 
 ## Redirecting in Sitecore
 
-Redirects are a very common feature that people ask for, whether due to their URL structure changing, SEO requirements or any number of reasons, they're a very nice thing to have, and even better when the user themselves can create them, without having to rely on IIS modifications.
+Redirects are a very common feature that people ask for, whether due to their URL structure changing, SEO requirements or any number of reasons, they're a very nice thing to have, and even better when a non-technical user can create them without having to rely on IIS modifications.
 
 Sitecore has a few options in this situation, for example I'm a big fan of the Sitecore URL Rewrite Module by Andy Cohen, found [here.](https://github.com/iamandycohen/UrlRewrite) If you haven't checked it out already, it provides a lot of the standard IIS rewrite module functionality, but through sitecore instead.
 
