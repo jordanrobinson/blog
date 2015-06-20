@@ -10,7 +10,7 @@ Redirects are a very common feature that people ask for, whether due to their UR
 
 Sitecore has a few options in this situation, for example I'm a big fan of the Sitecore URL Rewrite Module by Andy Cohen, found [here.](https://github.com/iamandycohen/UrlRewrite) If you haven't checked it out already, it provides a lot of the standard IIS rewrite module functionality, but through sitecore instead.
 
-Another way of implementing redirects if you don't want something as heavy duty as the URL Rewrite module, by overriding aliases in sitecore, you can provide redirects to the user, and at the same time restrict a feature of Sitecore that is pretty easy to misuse.
+Another way of implementing redirects if you don't want something as heavy duty as the URL Rewrite module is by overriding aliases in Sitecore. You can provide redirects to the user, and at the same time restrict a feature of Sitecore that is pretty easy to misuse.
 
 ## Sitecore Aliases
 
