@@ -481,8 +481,10 @@
  }
 
  .theme-base-0d .sidebar {
+ 	background-image: url("../images/side.jpg");
+ 	background-color: #020202;
+ 	background-size: cover;
  	border-left: #66d9ef 4px solid;
- 	background-color: #111;
  }
 
  .sidebar h1 {
