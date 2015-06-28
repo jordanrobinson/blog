@@ -518,6 +518,11 @@
  	color: #020202;
  }
 
+ .links {
+ 	line-height: 5rem;
+ 	font-size: 3rem;
+ }
+
 
  h1, h2, h3, h4, h5, h6 {
  	color: #020202;
