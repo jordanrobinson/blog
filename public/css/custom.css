@@ -487,13 +487,17 @@
  	border-left: #66d9ef 4px solid;
  }
 
+ .sidebar {
+ 	list-style-type: none;
+ }
+
  .sidebar h1 {
  	text-align:center;
  	margin-bottom:10%;
  }
 
  .sidebar a {
- 	color: #333333;
+ 	color: #F2F2F2;
  }
 
  .sidebar-about h1 {
