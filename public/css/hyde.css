@@ -166,7 +166,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .layout-reverse .content {
-    margin-left: 4rem;
+    margin-left: 9rem;
     margin-right: 22rem;
   }
 }
@@ -177,5 +177,5 @@ a.sidebar-nav-item:focus {
 }
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
-  color: #020202;
+  color: #999999;
 }
