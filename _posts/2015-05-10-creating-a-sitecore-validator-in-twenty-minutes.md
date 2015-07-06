@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a Custom Sitecore Field Validator in Twenty Minutes
+title: Creating a custom Sitecore field validator in twenty minutes
 description: Stepping through the process of creating a useful Sitecore validator and getting one built pretty quick.
 ---
 
