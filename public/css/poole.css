@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -59,15 +59,13 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #333333;
   text-decoration: none;
 }
 a strong {
@@ -286,7 +284,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
+  max-width: 48rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
