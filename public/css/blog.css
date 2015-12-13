@@ -613,7 +613,7 @@ span .pagination-item {
 	text-decoration: underline;
 }
 
-.post .related-link a {
+.related-link {
 	text-decoration: none !important; /** don't judge me I only have five minutes ;_; **/
 }
 
