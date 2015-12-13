@@ -1,20 +1,4 @@
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-
-    {% comment %}
-    The code below dynamically generates a sidebar nav of pages with
-    `layout: page` in the front-matter. See readme for usage.
-    {% endcomment %}
-
-    {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
-    {% if node.title != null %}
-    {% if node.layout == "page" %}
-    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-
+<div class="col-4 aside">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -24,5 +8,4 @@
       ga('send', 'pageview');
     </script>
 
-  </div>
 </div>

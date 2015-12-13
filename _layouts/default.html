@@ -5,17 +5,14 @@
 
   <body class="background">
   	<div class="grid">
-
-
-    {% include sidebar.html %}
-
-	    <div class="content container">
+  	<section class="row">
+	    <div class="col-7 content">
 		<a class="head" href="http://jordanrobinson.co.uk">
 			<h1>Jordan Robinson / Developer</h1>
 	    </a>
 	      {{ content }}
 	    </div>
-		<div class="links">
+		<div class="col-1 links">
 			<ul>
 				<li class="row">
 					<a class="icon icon-stack-overflow link" href="http://careers.stackoverflow.com/jordanrobinson">
@@ -58,6 +55,8 @@
 				</li>
 			</ul>
 		</div>
+    {% include sidebar.html %}
+	</section>
 	</div>
 
   </body>
