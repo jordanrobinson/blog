@@ -613,6 +613,10 @@ span .pagination-item {
 	text-decoration: underline;
 }
 
+.related-link {
+	text-decoration: none;
+}
+
  /* MQ */
 
 
