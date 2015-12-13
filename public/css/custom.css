@@ -475,6 +475,92 @@
  	content: "\eac1";
  }
 
+
+/**
+ start custom theming
+**/
+
+
+ body {
+ }
+
+  .background {
+    background-color: #378EB0;
+  }
+
+ .content {
+  color: #f2f2f2;
+  padding: 5rem;
+ }
+
+ .aside {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-color: #020202;
+  height: 100vh;
+  position: fixed;
+ }
+
+ .head {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-size: 9pt;
+ }
+
+ .title {
+  font-family: "Old Standard TT", serif;
+  font-style: italic;
+  font-size: 22pt;
+  color: #111111;
+ }
+
+ .main {
+  font-family: "Old Standard TT", serif;
+ }
+
+ .inline-link {
+  color: #f2f2f2;
+  text-decoration: underline;
+ }
+
+ .link {
+  color: #f2f2f2;
+  text-decoration: none;
+ }
+
+
+.icon {
+  font-size: 25pt;
+  color: #f2f2f2;
+  display: block;
+  text-align: right;
+  padding-left:2rem;
+  padding-bottom:3rem;
+  font-size: 40px;
+}
+
+ .links {
+
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  padding-bottom: 3rem;
+ 	padding-top: 3rem;
+ 	list-style-type: none;
+ 	font-size: 22pt;
+ }
+
+ .icon-text {
+  color: #f2f2f2;
+  font-family: "Lato", sans-serif;
+  font-size:16pt;
+  display:none;
+ }
+
+
+/**
+
  body {
  	background-color: #F2F2F2;
  	font-family: 'Cabin', sans-serif;
@@ -539,3 +625,5 @@
  		display: block;
  	}
  }
+
+ **/
