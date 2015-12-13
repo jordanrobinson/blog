@@ -614,7 +614,7 @@ span .pagination-item {
 }
 
 .post .related-link a {
-	text-decoration: none;
+	text-decoration: none !important; /** don't judge me I only have five minutes ;_; **/
 }
 
  /* MQ */
