@@ -613,7 +613,7 @@ span .pagination-item {
 	text-decoration: underline;
 }
 
-.related-link {
+.post .related-link a {
 	text-decoration: none;
 }
 
