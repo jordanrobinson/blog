@@ -114,6 +114,7 @@ title, head {
  a {
  	background-color: transparent;
  	text-decoration: none;
+ 	color: #111111;
  }
 
 /**
@@ -124,9 +125,8 @@ title, head {
  a:active,
  a:hover {
  	outline: 0;
+ 	text-decoration: underline;
  }
-
-
 
 
 /* Text-level semantics
@@ -542,7 +542,6 @@ title, head {
  .post-title {
  	color: #111111;
  	font-family: "Lato", sans-serif;
- 	text-transform: uppercase;
  }
 
 
