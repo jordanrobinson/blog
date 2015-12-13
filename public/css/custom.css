@@ -1,4 +1,4 @@
- /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /**
  * 1. Set default font family to sans-serif.
@@ -11,6 +11,31 @@
  	-ms-text-size-adjust: 100%; /* 2 */
  	-webkit-text-size-adjust: 100%; /* 2 */
  }
+
+ html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+title, head {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 /**
  * Remove default margin.
@@ -130,15 +155,6 @@
  	font-style: italic;
  }
 
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
-
- h1 {
- 	font-size: 2em;
- 	margin: 0.67em 0;
- }
 
 /**
  * Address styling not present in IE 8/9.
@@ -426,6 +442,7 @@
  }
 
 
+
  /* font icons */
 
  @font-face {
@@ -433,13 +450,6 @@
  	src:url('../fonts/icomoon.woff?sprjwq') format('woff');
  	font-weight: normal;
  	font-style: normal;
- }
-
- @font-face {
- 	font-family: 'Cabin';
- 	font-style: normal;
- 	font-weight: 400;
- 	src: local('Cabin Regular'), local('Cabin-Regular'), url('../fonts/cabin.woff') format('woff');
  }
 
  [class^="icon-"], [class*=" icon-"] {
@@ -476,10 +486,7 @@
  }
 
 
-/**
- start custom theming
-**/
-
+ /* custom styles */
 
  body {
  }
@@ -493,10 +500,12 @@
   padding: 5rem;
  }
 
-.theme-base-0d .sidebar {
- 	background-image: url("../images/side.jpg");
- 	background-color: #111111;
- 	background-size: cover;
+ .aside {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-color: #020202;
+  height: 100vh;
+  position: fixed;
  }
 
  .head {
@@ -556,69 +565,179 @@
   display:none;
  }
 
-  .page-title, .post-title, .post-title a {
- 	color: #111111;
- }
 
- .post-date {
- 	color: #111111;
- }
+ /* MQ */
 
 
-/**
-
- body {
- 	background-color: #F2F2F2;
- 	font-family: 'Cabin', sans-serif;
- }
-
-
-
- .sidebar {
- 	list-style-type: none;
- }
-
- .sidebar h1 {
- 	text-align:center;
- 	margin-bottom:10%;
- }
-
- .sidebar a {
- 	color: #F2F2F2;
- }
-
- .sidebar-about h1 {
- 	margin-top: 0px;
- 	font-size: 2.0rem;
- }
-
- .sidebar img {
- 	margin-left: auto;
- 	margin-right: auto;
- }
-
-
-
- .links {
- 	line-height: 5rem;
- 	font-size: 3rem;
- }
-
-
- h1, h2, h3, h4, h5, h6 {
- 	color: #020202;
- }
-
- @media (min-width: 1em) {
- 	.sidebar img {
- 		display: inline;
+ 	/* grid system */
+ 	* {
+ 		-webkit-box-sizing: border-box;
+ 		-moz-box-sizing: border-box;
+ 		-ms-box-sizing: border-box;
+ 		box-sizing: border-box;
  	}
- }
 
- @media (min-width: 48em) {
- 	.sidebar img {
- 		display: block;
+ 	.grid {
+ 		margin: 0 auto;
+ 		max-width: 2600px;
+ 		width: 100%;
+
  	}
+
+ 	.row {
+ 		width: 100%;
+ 		display: flex;
+ 		display: flex-wrap;
+ 	}
+
+ 	.col-1 {
+ 		width: 8.33%;
+ 	}
+
+ 	.col-2 {
+ 		width: 16.66%;
+ 	}
+
+ 	.col-3 {
+ 		width: 25%;
+ 	}
+
+ 	.col-4 {
+ 		width: 33.33%;
+ 	}
+
+ 	.col-5 {
+ 		width: 41.66%;
+ 	}
+
+ 	.col-6 {
+ 		width: 50%;
+ 	}
+
+ 	.col-7 {
+ 		width: 58.33%;
+ 	}
+
+ 	.col-8 {
+ 		width: 66.66%;
+ 	}
+
+ 	.col-9 {
+ 		width: 75%;
+ 	}
+
+ 	.col-10 {
+ 		width: 83.33%;
+ 	}
+
+ 	.col-11 {
+ 		width: 91.66%;
+ 	}
+
+ 	.col-12 {
+ 		width: 100%;
+ 	}
+ 
+
+ @media (min-width: 320px) and (max-width: 768px) {
+
+  .col-7 {
+    width: 80%;
+  }
+
+  .col-1 {
+    width: 10%;
+  }
+
+ .icon {
+  display:inline;
+  }
+
+ .aside {
+  display:none;
+  background-color: #378EB0;
+  }
+
+  .content {
+  color: #f2f2f2;
+  padding: 1.2rem;
+  }
+
  }
 
- **/
+ /* JS classes */
+
+ /* Konami */
+
+  .dark {
+    -webkit-animation: fadeOut 3s ease-in; 
+    -moz-animation: fadeOut 3s ease-in; 
+    -o-animation: fadeOut 3s ease-in; 
+    animation: fadeOut 3s ease-in; 
+    background-color: #111111;
+  }
+
+  @-webkit-keyframes fadeOut {
+    0%   { background-color: #378eb0; }
+    100% { background-color: #111111; }
+  }
+  @-moz-keyframes fadeOut {
+    0%   { background-color: #378eb0; }
+    100% { background-color: #111111; }
+  }
+  @-o-keyframes fadeOut {
+    0%   { background-color: #378eb0; }
+    100% { background-color: #111111; }
+  }
+  @keyframes fadeOut {
+    0%   { background-color: #378eb0; }
+    100% { background-color: #111111; }
+  }
+
+
+ @-moz-keyframes font-effect-fire-animation-keyframes {
+  0% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  25% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0 -0.05em 0.17em #FE0, 0.04em -0.12em 0.22em #FC0, 0.04em -0.13em 0.27em #F90, 0.05em -0.23em 0.33em #F70, 0.07em -0.28em 0.47em #F70, 0.1em -0.3em 0.8em #F50, 0.1em -0.3em 0.9em #F40;
+  }
+  50% {    text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  75% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0 -0.06em 0.18em #FE0, 0.05em -0.15em 0.23em #FC0, 0.05em -0.15em 0.3em #F90, 0.07em -0.25em 0.4em #F70, 0.09em -0.3em 0.5em #F70, 0.1em -0.3em 0.9em #F50, 0.1em -0.3em 1.0em #F40;
+  }
+  100% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+}
+
+@-webkit-keyframes font-effect-fire-animation-keyframes {
+  0% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  25% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0 -0.05em 0.17em #FE0, 0.04em -0.12em 0.22em #FC0, 0.04em -0.13em 0.27em #F90, 0.05em -0.23em 0.33em #F70, 0.07em -0.28em 0.47em #F70, 0.1em -0.3em 0.8em #F50, 0.1em -0.3em 0.9em #F40;
+  }
+  50% {    text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+  75% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0 -0.06em 0.18em #FE0, 0.05em -0.15em 0.23em #FC0, 0.05em -0.15em 0.3em #F90, 0.07em -0.25em 0.4em #F70, 0.09em -0.3em 0.5em #F70, 0.1em -0.3em 0.9em #F50, 0.1em -0.3em 1.0em #F40;
+  }
+  100% {
+    text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70,0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+  }
+}
+.konami {
+  -moz-animation-duration:0.8s;
+  -moz-animation-name:font-effect-fire-animation-keyframes;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-direction:alternate;
+  
+  -webkit-animation-duration:0.8s;
+  -webkit-animation-name:font-effect-fire-animation-keyframes;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-direction:alternate;
+
+  color: #ffe;
+}
