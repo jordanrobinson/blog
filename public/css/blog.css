@@ -113,6 +113,7 @@ title, head {
 
  a {
  	background-color: transparent;
+ 	text-decoration: none;
  }
 
 /**
@@ -124,6 +125,7 @@ title, head {
  a:hover {
  	outline: 0;
  }
+
 
 
 
@@ -537,7 +539,7 @@ title, head {
   text-decoration: none;
  }
 
- .post {
+ .post-title {
  	color: #111111;
  	font-family: "Lato", sans-serif;
  	text-transform: uppercase;
@@ -571,6 +573,8 @@ title, head {
   font-size:16pt;
   display:none;
  }
+
+
 
 
  /* MQ */
