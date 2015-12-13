@@ -584,6 +584,7 @@ title, head {
  	padding-top: 3rem;
  	list-style-type: none;
  	font-size: 22pt;
+ 	position: fixed;
  }
 
  .icon-text {
@@ -615,6 +616,10 @@ span .pagination-item {
 
 .related-link {
 	text-decoration: none !important; /** don't judge me I only have five minutes ;_; **/
+}
+
+.related-link :hover {
+	text-decoration: underline;
 }
 
  /* MQ */
