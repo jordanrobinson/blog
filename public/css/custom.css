@@ -493,12 +493,10 @@
   padding: 5rem;
  }
 
- .aside {
-  background-image: url("../images/banner.jpg");
-  background-size: cover;
-  background-color: #020202;
-  height: 100vh;
-  position: fixed;
+.theme-base-0d .sidebar {
+ 	background-image: url("../images/side.jpg");
+ 	background-color: #111111;
+ 	background-size: cover;
  }
 
  .head {
@@ -558,6 +556,14 @@
   display:none;
  }
 
+  .page-title, .post-title, .post-title a {
+ 	color: #111111;
+ }
+
+ .post-date {
+ 	color: #111111;
+ }
+
 
 /**
 
@@ -566,12 +572,7 @@
  	font-family: 'Cabin', sans-serif;
  }
 
- .theme-base-0d .sidebar {
- 	background-image: url("../images/side.jpg");
- 	background-color: #020202;
- 	background-size: cover;
- 	border-left: #66d9ef 4px solid;
- }
+
 
  .sidebar {
  	list-style-type: none;
@@ -596,13 +597,7 @@
  	margin-right: auto;
  }
 
- .page-title, .post-title, .post-title a {
- 	color: #020202;
- }
 
- .post-date {
- 	color: #020202;
- }
 
  .links {
  	line-height: 5rem;
