@@ -32,6 +32,10 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	color: #111111;
+}
+
 title, head {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -544,6 +548,10 @@ title, head {
  	font-family: "Lato", sans-serif;
  }
 
+ .post-date {
+ 	color: #111111;
+ 	font-family: "Lato", sans-serif;
+ }
 
 .icon {
   font-size: 25pt;
