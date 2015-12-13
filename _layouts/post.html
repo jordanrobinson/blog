@@ -4,7 +4,7 @@ layout: default
 
 <div class="post content">
 <a class="head" href="http://jordanrobinson.co.uk">
-  <h1 class="blog-head">Jordan Robinson / Developer</h1>
+  <h1 class="blog-head-dark">Jordan Robinson / Developer</h1>
 </a>
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
@@ -17,7 +17,7 @@ layout: default
         <h3>
           <a href="{{ post.url }}">
             {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
+            <small class="post-date">{{ post.date | date_to_string }}</small>
           </a>
         </h3>
       </li>
