@@ -3,7 +3,11 @@
 
   {% include head.html %}
 
+{% if page.url == "/" %}
+  <body class="post background">
+{% else %}
   <body class="background">
+{% endif %}
   	<div class="grid">
   	<section class="row">
 	    <div class="col-7">
