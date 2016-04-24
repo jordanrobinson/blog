@@ -565,6 +565,7 @@ title, head {
  }
 
 .icon {
+  color: #f2f2f2;
   font-size: 25pt;
   display: block;
   text-align: right;
@@ -616,7 +617,7 @@ span .pagination-item {
 }
 
 .post a {
-	text-decoration: underline;
+	color: #111111;
 }
 
 .related-link {
