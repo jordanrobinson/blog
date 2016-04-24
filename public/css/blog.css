@@ -567,7 +567,7 @@ title, head {
 
 .icon {
   font-size: 25pt;
-  color: #f2f2f2;
+  color: #111111;
   display: block;
   text-align: right;
   padding-left:2rem;
@@ -577,9 +577,10 @@ title, head {
 
  .links {
 
+  background-color: #f2f2f2;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #f2f2f2;
+  color: #111111;
   padding-bottom: 3rem;
  	padding-top: 3rem;
  	list-style-type: none;
