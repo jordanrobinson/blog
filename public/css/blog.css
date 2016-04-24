@@ -564,6 +564,9 @@ title, head {
  	background-color: #f2f2f2;
 	color: #111111;
  }
+ .post .icon {
+  color: #111111;
+ }
 
 .icon {
   font-size: 25pt;
