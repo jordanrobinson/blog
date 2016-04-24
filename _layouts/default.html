@@ -13,7 +13,11 @@
 	    <div class="col-7">
 	      {{ content }}
 	    </div>
+	    {% if page.url == "/" %}
 		<div class="col-1 links">
+		{% else %}
+		<div class="col-1 post-links">
+		{% endif %}
 			<ul>
 				<li class="row">
 					<a class="icon icon-stack-overflow link" href="http://careers.stackoverflow.com/jordanrobinson">

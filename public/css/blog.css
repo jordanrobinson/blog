@@ -564,13 +564,9 @@ title, head {
  	background-color: #f2f2f2;
 	color: #111111;
  }
- .post .icon {
-  color: #111111;
- }
 
 .icon {
   font-size: 25pt;
-  color: #f2f2f2;
   display: block;
   text-align: right;
   padding-left:2rem;
@@ -586,6 +582,16 @@ title, head {
  	padding-top: 3rem;
  	list-style-type: none;
  	font-size: 22pt;
+ }
+
+  .post-links {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #111111;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  list-style-type: none;
+  font-size: 22pt;
  }
 
  .icon-text {
