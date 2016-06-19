@@ -117,7 +117,7 @@ title, head {
 
  a {
  	background-color: transparent;
- 	text-decoration: none;
+ 	text-decoration: underline;
  	color: #111111;
  }
 
