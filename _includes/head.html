@@ -1,20 +1,80 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
 
     <!-- Hello! I'm glad you've decided to take a look at the source, the whole site is hosted on github,
     so if you have any suggestions, take a look at https://github.com/JordanRobinson/JordanRobinson.github.io -->
 
-    <title>{% page.title %} | Jordan Robinson</title>
+    <title>
+    {% if page.url == "/" %}{{ site.title }} | {{ site.tagline }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}
+    </title>
+
+    <base href="{{ site.url }}">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <meta name="description" content="{{ site.description }}">
+    <meta name="url" content="{{ site.url }}">
+
+    <link rel="canonical" href="{{ page.url }}">
     
-    <base href="{% site.url %}">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="me" href="me@jordanrobinson.co.uk">
 
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
-    <meta name="description" content="{% site.description %}">
-    <meta name="url" content="{% site.url %}">
+    <link rel="alternate" href="https://jordanrobinson.co.uk/feed.xml" type="application/rss+xml" title="RSS">
 
-    <link rel="canonical" href="{% page.url %}">
+    <link rel="icon" href="images/favicon-16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon-48.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="images/favicon-62.png" sizes="62x62" type="image/png">
+    <link rel="icon" href="images/favicon-192.png" sizes="192x192" type="image/png">
 
+    <link rel="prefetch" href="image.png">
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if page.url == "/" %}{{ site.title }} | {{ site.tagline }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:site_name" content="{{ site.title }} | {{ site.tagline }}">
+    <meta property="og:locale" content="en_GB">
+    <meta property="article:author" content="Jordan Robinson">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@site_account">
+    <meta name="twitter:creator" content="@individual_account">
+    <meta name="twitter:url" content="https://example.com/page.html">
+    <meta name="twitter:title" content="Content Title">
+    <meta name="twitter:description" content="Content description less than 200 characters">
+    <meta name="twitter:image" content="https://example.com/image.jpg">
+
+    <link href="https://plus.google.com/+YourPage" rel="publisher">
+    <meta itemprop="name" content="Content Title">
+    <meta itemprop="description" content="Content description less than 200 characters">
+    <meta itemprop="image" content="https://example.com/image.jpg">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="App Title">
+
+    <link rel="apple-touch-icon" href="path/to/apple-touch-icon.png"> <!-- 180×180px -->
+    <link rel="apple-touch-icon-precomposed" href="path/to/apple-touch-icon-precomposed.png">
+
+    <meta name="theme-color" content="#E64545">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Jordan Robinson",
+        "jobTitle": "Developer",
+        "affiliation": "Building Blocks UK ltd",
+        "url": "https://jordanrobinson.co.uk"
+      }
+    </script>
+
+    <style amp-boilerplate>
+    body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+       
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
 </head>
