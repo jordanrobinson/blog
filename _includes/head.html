@@ -1,8 +1,8 @@
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
-
+    
     <!-- Hello! I'm glad you've decided to take a look at the source, the whole site is hosted on github,
     so if you have any suggestions, take a look at https://github.com/JordanRobinson/JordanRobinson.github.io -->
 
@@ -15,6 +15,8 @@
 
     <meta name="description" content="{{ site.description }}">
     <meta name="url" content="{{ site.url }}">
+    <meta name="author" content="Jordan Robinson">
+    <meta name="Generator" content="Jekyll (http://jekyllrb.com/)">
 
     <link rel="canonical" href="{{ page.url }}">
     
@@ -39,16 +41,14 @@
     <meta property="article:author" content="Jordan Robinson">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@site_account">
-    <meta name="twitter:creator" content="@individual_account">
-    <meta name="twitter:url" content="https://example.com/page.html">
-    <meta name="twitter:title" content="Content Title">
-    <meta name="twitter:description" content="Content description less than 200 characters">
+    <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:title" content="{% if page.url == "/" %}{{ site.title }} | {{ site.tagline }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ site.description }}">
     <meta name="twitter:image" content="https://example.com/image.jpg">
 
-    <link href="https://plus.google.com/+YourPage" rel="publisher">
-    <meta itemprop="name" content="Content Title">
-    <meta itemprop="description" content="Content description less than 200 characters">
+    <meta itemprop="name" content="{{ site.title }} | {{ site.tagline }}">
+    <meta itemprop="description" content="{{ site.description }}">
     <meta itemprop="image" content="https://example.com/image.jpg">
 
     <meta name="format-detection" content="telephone=no">
