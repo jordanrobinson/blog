@@ -2,6 +2,7 @@
 layout: post
 title: Injecting a custom icon into an Android icon pack
 description: Quick how to on modifying a compiled Android icon pack
+permalink: /injecting-android-icons
 ---
 
 Recently, I decided my Android home screen needed to look slightly fancier than it usually does, so I spent some time looking into icon packs and theming. All of which, for Android at least, there are a huge amount of options. Liking something simple, but that would still let me recognise what the apps actually were, I decided to go for [Whicons](https://play.google.com/store/apps/details?id=com.whicons.iconpack) which is a huge collection of HD icons.

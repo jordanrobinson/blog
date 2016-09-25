@@ -2,6 +2,7 @@
 layout: post
 title: How to clear watched JIRA issues using the JIRA CLI
 description: Clearing out all those old jira cases from your watch list in one fell swoop.
+permalink: /clear-jira-cases
 ---
 
 As bugtrackers go, JIRA is my poison of choice. It's definitely one of the better bugtrackers out there, pretty feature rich and definitely beats a pen, paper and a vague description.

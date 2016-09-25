@@ -2,6 +2,7 @@
 layout: post
 title: Hijacking Sitecore aliases and turning them into redirects in Sitecore 8
 description: All about redirects and making a nice little pipeline modification to use aliases as redirects.
+permalink: /sitecore-alias-redirects
 ---
 
 ## Redirecting in Sitecore

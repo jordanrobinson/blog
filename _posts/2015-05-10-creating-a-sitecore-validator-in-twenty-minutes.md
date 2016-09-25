@@ -2,6 +2,7 @@
 layout: post
 title: Creating a custom Sitecore field validator in twenty minutes
 description: Stepping through the process of creating a useful Sitecore validator and getting one built pretty quick.
+permalink: /quick-sitecore-field-validators
 ---
 
 At work I've been working with [Sitecore](http://www.sitecore.net/) a lot more, and while there are a lot of blog posts and articles about a large variety of things to do with the CMS, one road bump I came up to was creation of a validator, so I figured why not document what I did to help others in future.

@@ -10,7 +10,9 @@
     {% if page.url == "/" %}{{ site.title }} | {{ site.tagline }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}
     </title>
 
-    <base href="{{ site.url }}">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700|Lato" rel="stylesheet" type="text/css">
+
+    <!--<base href="{{ site.url }}">-->
     <link rel="stylesheet" href="/css/main.css">
 
     <meta name="description" content="{{ site.description }}">
@@ -18,7 +20,7 @@
     <meta name="author" content="Jordan Robinson">
     <meta name="Generator" content="Jekyll (http://jekyllrb.com/)">
 
-    <link rel="canonical" href="{{ page.url }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     
     <link rel="me" href="me@jordanrobinson.co.uk">
 

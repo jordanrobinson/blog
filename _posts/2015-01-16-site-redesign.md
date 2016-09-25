@@ -2,6 +2,7 @@
 layout: post
 title: A Site Redesign Using D3 and CSS3
 description: A brief look at the various ways to generate the same visual effect for a site, through javascript.
+permalink: /site-redesign
 ---
 
 Originally, my [homepage](http://jordanrobinson.co.uk) was basically just thrown together over a weekend. I knew what kind of design I wanted, but when it actually came to implementing it, I was a little stuck. The idea was to have a subtly animating grid of svg elements that blinked softly with some CSS3 transitions, pretty to look at, not particularly taxing on the CPU, and fun to implement.

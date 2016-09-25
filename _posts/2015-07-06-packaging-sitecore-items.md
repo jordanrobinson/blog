@@ -2,6 +2,7 @@
 layout: post
 title: Packaging Sitecore items to move them between environments
 description: Packaging items up happens a lot when working with multiple environments, so let's go through the steps
+permalink: /package-sitecore-items
 ---
 
 ## Packages in Sitecore

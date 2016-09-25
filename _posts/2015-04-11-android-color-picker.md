@@ -2,6 +2,7 @@
 layout: post
 title: Android Color Picker
 description: How and why I packaged up the AOSP colour picker for Gradle
+permalink: /android-color-picker
 ---
 
 Recently, while putting together an Android project, I found that I needed a good dialog for the user to pick a colour. Not being a fan of reimplementing the colour-picker shaped wheel, I figured there had to be a decent colour picker out there that aligned with what I wanted from my colour picker.
