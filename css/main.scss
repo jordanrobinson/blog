@@ -6,50 +6,110 @@
 @import "_variables.scss";
 @import "_reset-src.scss";
 @import "_flex-grid.scss";
+@import "_sizing.scss";
 
 // Custom styles
+
+html {
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+}
 
 a {
     color: $text-color;
 }
 
-img {
-    max-width: 750px;
-    height: auto;
+.content {
+    overflow: hidden;
+    p {
+        font-size: 1em;
+        line-height: 1.5em;
+        margin: 0 0 1.5em 0;
+    }
+    span {
+        font-size: 1em;
+        line-height: 1.5em;
+        margin: 0 0 1.5em 0;
+    }
+    h1 {
+        @extend .extra-large;
+    }
+    h2 {
+        @extend .large;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.post-link {
+    text-decoration: none;
+    h2 {
+        margin: 0;
+    }
 }
 
 .post-link:hover {
     text-decoration: underline;
 }
 
-.page {
-    background-color: $background-color;
-    color: $text-color;
-    font-family: $content-font;
-    line-height: 1.5;
-    overflow: hidden;
-}
-
-.main {
-    margin:  auto;
-    max-width: $max-width;
-}
-
-.site-title {
-    font-family: $title-font;
+.post-meta {
+    color: $grey-color;
+    p {
+        line-height: 1.3333em;
+        display: inline-block;
+        vertical-align: bottom;
+        margin: 0;
+    }
 }
 
 .post-listing {
     font-family: $title-font;
-    margin-bottom: 10px;
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
 }
 
-.post-date-container {
-    padding-right: 10px;
-    color: $grey-color;
+.site-title {
+    font-family: $title-font;
+    font-size: 2em;
+    text-decoration: none;
+    margin-top: 2em;
+}
+
+.header-link {
+    margin-top: 1.5em;
+    a {
+        text-decoration: none;
+    }
+}
+
+.post-list {
+    margin-top: 2em;
+}
+
+.site-header-content {
+    margin-top: 2em;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.page {
+    background-color: $background-color;
+    color: $text-color;
+    font-family: $content-font;
+    margin: 0 1.5em;
+}
+
+.main {
+    margin: auto;
+    max-width: $max-width;
 }
 
 .callback {
-    padding-top: 30px;
+    padding-top: 2em;
+    padding-bottom: 2em;
     text-align: center;
 }

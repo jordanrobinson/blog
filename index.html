@@ -7,8 +7,8 @@ title: "Blog"
   <ul class="post-list">
     {% for post in site.posts %}
       <li class="post-listing row">
-        <div class="col-xs-12 col-md-2 post-date-container">
-          <time datetime="{{ post.date }}" class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <div class="col-xs-12 col-md-2 post-meta">
+          <p><time datetime="{{ post.date }}" class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</time></p>
         </div>
         <div class="col-xs-12 col-md-10">
           <a class="post-link" href="{{ post.url }}">

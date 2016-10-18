@@ -24,3 +24,6 @@ github_username:  jordanrobinson
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-feed
