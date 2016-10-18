@@ -7,18 +7,15 @@
 @import "_reset-src.scss";
 @import "_flex-grid.scss";
 
-// Our variables
-$title-font: "Lato", sans-serif;
-$content-font: "Old Standard TT", serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-
 // Custom styles
 
 a {
-    text-decoration: none;
     color: $text-color;
+}
+
+img {
+    max-width: 750px;
+    height: auto;
 }
 
 .post-link:hover {
@@ -30,19 +27,11 @@ a {
     color: $text-color;
     font-family: $content-font;
     line-height: 1.5;
-}
-
-.page-heading {
-    text-align: center;
-}
-
-.site-header-content {
-    margin: 0 auto;
-    max-width: $max-width;
+    overflow: hidden;
 }
 
 .main {
-    margin: 0 auto;
+    margin:  auto;
     max-width: $max-width;
 }
 
