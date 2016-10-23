@@ -3,7 +3,7 @@ Blog
 
 A blog I write.
 
-It's based on Poole and Jekyll.
+It's based on Jekyll.
 
 It can be found at https://blog.jordanrobinson.co.uk
 
