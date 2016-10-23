@@ -13,13 +13,13 @@ So where do we start in creating a validator? There are a few good resources for
 
 ## In Sitecore
 
-![content tree](https://blog.jordanrobinson.co.uk/public/images/sitecore-validator-1.jpg)
+![content tree](images/sitecore-validator-1.jpg)
 
 Log in and expand out the content tree (pictured) till you see the section for validators, and let's create a folder for our validator. I chose the name 'Custom' but it doesn't really matter what you put here, just name it something that will let others know that it didn't come as standard with sitecore, in case they want to move it or package it for a different environment.
 
 Then add the Field Validator by adding an item of the correct type (Validation Rule) to the folder and set it up as follows in the below screenshot:
 
-![new validator](https://blog.jordanrobinson.co.uk/public/images/sitecore-validator-2.jpg)
+![new validator](images/sitecore-validator-2.jpg)
 
 Note the Type field in particular, as this is where you will create the code component of the validator, for namespace and package.
 
@@ -27,13 +27,13 @@ Then it's a case of actually adding it to a field that we want it displayed upon
 
 To do this find the Item that you want to validate a field of (Folder name hidden to protect the innocent):
 
-![validation target](https://blog.jordanrobinson.co.uk/public/images/sitecore-validator-5.jpg)
+![validation target](images/sitecore-validator-5.jpg)
 
 add the field if not already present and expand it in the content tree to view the field itself. From here add the validator to the section you want, in this case I've chosen the validation bar so that it's displayed on the side. Here's a quick example:
 
-![validation setup](https://blog.jordanrobinson.co.uk/public/images/sitecore-validator-4.jpg)
+![validation setup](images/sitecore-validator-4.jpg)
 
-![more validation setup](https://blog.jordanrobinson.co.uk/public/images/sitecore-validator-7.jpg)
+![more validation setup](images/sitecore-validator-7.jpg)
 
 ## In Code
 
@@ -53,4 +53,4 @@ After we have the item, it's a pretty quick check to see if our item is valid, a
 
 Once your code is deployed to the site, you have yourself a fully functioning validator!
 
-![hey it works!](https://blog.jordanrobinson.co.uk/public/images/sitecore-validator-6.jpg)
+![hey it works!](images/sitecore-validator-6.jpg)

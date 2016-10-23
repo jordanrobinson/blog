@@ -35,5 +35,5 @@ After that, you just need a way of replacing out the alias resolving pipeline wi
 
 Of course don't forget to swap out the namespace for your own instead of launch sitecore. Once that's done, it's pretty simple to see the results, open your network tab and you'll see that your aliases have turned to redirects :D
 
-![more validation setup](https://blog.jordanrobinson.co.uk/public/images/sitecore-redirects.jpg)
+![more validation setup](images/sitecore-redirects.jpg)
 
