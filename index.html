@@ -1,0 +1,23 @@
+---
+layout: default
+title: "Blog"
+---
+
+  <h2 class="page-heading">Blog Posts</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-listing row">
+        <div class="col-xs-12 col-md-2 post-meta">
+          <p><time datetime="{{ post.date }}" class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</time></p>
+        </div>
+        <div class="col-xs-12 col-md-10">
+          <a class="post-link" href="{{ post.url }}">
+            <h2>
+              {{ post.title | escape }}
+            </h2>
+          </a>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->

@@ -1,0 +1,20 @@
+$max-width: 800px;
+
+// colour palette
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+$brand-color:      #378eb0;
+
+$text-color:       #333;
+$background-color: #fafaff;
+
+
+// text settings
+
+$title-font: "Lato", sans-serif;
+$content-font: "Open Sans", sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;

@@ -1,0 +1,69 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+    
+    <!-- Hello! I'm glad you've decided to take a look at the source, the whole site is hosted on github,
+    so if you have any suggestions, take a look at https://github.com/jordanrobinson/jordanrobinson.github.io -->
+
+    <title>
+    {% if page.url == "/" %}{{ site.title }} | {{ site.tagline }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}
+    </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic|Lato" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <meta name="description" content="{{ site.description }}">
+    <meta name="url" content="{{ site.url }}">
+    <meta name="author" content="Jordan Robinson">
+    <meta name="Generator" content="Jekyll (http://jekyllrb.com/)">
+
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    
+    <link rel="me" href="me@jordanrobinson.co.uk">
+
+    <link rel="alternate" href="https://blog.jordanrobinson.co.uk/feed.xml" type="application/rss+xml" title="RSS">
+
+    <link rel="icon" href="images/favicon-16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon-48.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="images/favicon-62.png" sizes="62x62" type="image/png">
+    <link rel="icon" href="images/favicon-192.png" sizes="192x192" type="image/png">
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if page.url == "/" %}{{ site.title }} | {{ site.tagline }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:site_name" content="{{ site.title }} | {{ site.tagline }}">
+    <meta property="og:locale" content="en_GB">
+    <meta property="article:author" content="Jordan Robinson">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:title" content="{% if page.url == "/" %}{{ site.title }} | {{ site.tagline }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ site.description }}">
+
+    <meta itemprop="name" content="{{ site.title }} | {{ site.tagline }}">
+    <meta itemprop="description" content="{{ site.description }}">
+
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="apple-touch-icon" href="images/favicon-180.png"> <!-- 180×180px -->
+
+    <meta name="theme-color" content="#378EB0">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Jordan Robinson",
+        "jobTitle": "Developer",
+        "affiliation": "Building Blocks UK ltd",
+        "url": "https://jordanrobinson.co.uk"
+      }
+    </script>
+
+</head>
