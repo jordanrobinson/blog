@@ -16,7 +16,7 @@
 title: Jordan Robinson
 tagline: A Blog
 email: me@jordanrobinson.co.uk
-description: A blog, largely about technical topics, wrote by Jordan Robinson, a developer.
+description: A blog, largely about technical topics, written by Jordan Robinson, a developer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.jordanrobinson.co.uk" # the base hostname & protocol for your site
 twitter_username: 0xjrobinson
