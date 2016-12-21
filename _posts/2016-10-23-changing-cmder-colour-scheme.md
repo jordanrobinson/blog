@@ -2,7 +2,7 @@
 layout: post
 title: Cmder Colour Schemes
 description: Changing the Cmder colour scheme
-permalink: /cmder-colour-scheme
+permalink: /cmder-colour-schemes
 ---
 
 If you're confined to Windows and haven't tried out both [Cmder](http://cmder.net/) and [Bash on Ubuntu on Windows](https://msdn.microsoft.com/en-gb/commandline/wsl/install_guide) then you're really missing out. It's about as close to a solid Linux terminal as you could hope for, with only a very small amount of features not yet available.
