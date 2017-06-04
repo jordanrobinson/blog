@@ -21,7 +21,7 @@ So to begin, let's change some settings so that our 404 and 500 will be picked u
 
 Then you'll also need these settings to be modified in your web config file:
 
-{% gist jordanrobinson/b05566968a33d0f8d47f77755c5270d0  web-config-settings.txt %}
+{% gist jordanrobinson/b05566968a33d0f8d47f77755c5270d0 web-config-settings.txt %}
 
 Then, we'll of course need to add the two files that we're pointing at in those settings, so first off let's add a `500.htm` file to our solution, it just needs to be a plain html file. Ideally of course you want to [embed your images](https://en.wikipedia.org/wiki/Data_URI_scheme) so that you're only making one call to the server.
 
