@@ -21,7 +21,7 @@ Then, we'll need the actual code for the processor.
 
 {% gist jordanrobinson/d5740f50928fb5cbe494fade98a40353 TintProcessor.cs %}
 
-Note for this I'm using the great C# library [ImageProcessor](http://imageprocessor.org/) which as named pretty coincidentally in this situation.
+Note for this I'm using the great C# library [ImageProcessor](http://imageprocessor.org/) which is named pretty coincidentally in this situation.
 
 We'll also need some code to intercept the request and push our parameter to where it should go.
 
