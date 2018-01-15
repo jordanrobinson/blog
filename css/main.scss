@@ -21,6 +21,12 @@ a {
     @include link-underline($background-color, $text-color, $grey-color);
 }
 
+h3 {
+    margin-top: 1.3333em;
+    line-height: 1.333em;
+    font-weight: 600;
+}
+
 .content {
     overflow: hidden;
     p {
