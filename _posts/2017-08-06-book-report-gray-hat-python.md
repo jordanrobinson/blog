@@ -7,7 +7,7 @@ permalink: /gray-hat-python
 
 ## Introduction
 
-Gray Hat Python, by Justin Seitz and published by no starch press, is a pretty neat book on security, from an entirely Python standpoint. It has a website here: https://nostarch.com/ghpython.htm which I'd recommend checking out.
+Gray Hat Python, by Justin Seitz and published by no starch press, is a pretty neat book on security, from an entirely Python standpoint. It has [a website here](https://nostarch.com/ghpython.htm) which I'd recommend checking out.
 
 It looks like this:
 
