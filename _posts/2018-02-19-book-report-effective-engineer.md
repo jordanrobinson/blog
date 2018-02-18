@@ -7,7 +7,7 @@ permalink: /effective-engineer
 
 ## Introduction
 
-The Effective Engineer, by Edmond Lau and published by The Effective Bookshelf, is a book focused mainly on leverage, and using your time as a developer to achieve the largest amount of that leverage possible. It covers quite a few techniques and practices that Edmond Lau discovered and improved upon at his time at companies such as Google and Quora. It has a website at http://www.effectiveengineer.com/ but actually I wouldn't really recommend that site as it looks very self-help-y and not really in the spirit of the actual advice of the book in my opinion.
+The Effective Engineer, by Edmond Lau and published by The Effective Bookshelf, is a book focused mainly on leverage, and using your time as a developer to achieve the largest amount of that leverage possible. It covers quite a few techniques and practices that Edmond Lau discovered and improved upon at his time at companies such as Google and Quora. It has a website at [http://www.effectiveengineer.com/](http://www.effectiveengineer.com/) but actually I wouldn't really recommend that site as it looks very self-help-y and not really in the spirit of the actual advice of the book in my opinion.
 
 It looks like this:
 
