@@ -5,6 +5,14 @@ description: Quick how to on modifying a compiled Android icon pack
 permalink: /injecting-android-icons
 ---
 
+---
+
+## Huge Disclaimer
+
+Nowadays you can just use something like [Nova Launcher](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher) and swap the icons out yourself, so a lot of this post is pretty moot. But hey if you fancy a bit of reverse engineering then maybe there's something useful below, so I've left the old post intact cause why not.
+
+---
+
 Recently, I decided my Android home screen needed to look slightly fancier than it usually does, so I spent some time looking into icon packs and theming. All of which, for Android at least, there are a huge amount of options. Liking something simple, but that would still let me recognise what the apps actually were, I decided to go for [Whicons](https://play.google.com/store/apps/details?id=com.whicons.iconpack) which is a huge collection of HD icons.
 
 But oh no! Disaster! One of the apps on my homescreen doesn't have an icon in the pack! The app in my case was the wonderful [Hacker News 2](https://play.google.com/store/apps/details?id=com.airlocksoftware.hackernews) but this is pretty common, either the app you're using is new, or not used by many people, or even has recently been updated.
