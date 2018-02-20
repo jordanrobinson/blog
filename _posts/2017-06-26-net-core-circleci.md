@@ -13,7 +13,7 @@ Enter [CircleCI](https://circleci.com/); CircleCI is a more straightforward and 
 
 ## Setting It All Up
 
-So to combine the CircleCI and .Net Core, let's look at my yaml file that I ended up with, and then go through it line by line:
+So to combine CircleCI and .Net Core, let's look at my yaml file that I ended up with, and then go through it line by line:
 
 {% gist 115b770b16d17ce9f73f9076efd5af9a %}
 
