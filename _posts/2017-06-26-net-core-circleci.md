@@ -7,13 +7,13 @@ permalink: /net-core-circle-ci
 
 ## Introduction
 
-Lately I've been doing a lot of work using .Net Core and basically, it's great. Since I'm not building out using more legacy .Net stuff, that means as well that I can try out new things and processes. Usually for a standard .Net project I'd use TeamCity, which is really good to work with in a standard workflow, but it's very Windows-centric; things are configured through GUIs and checkboxes and forms. The main thing I don't like about this however is that it's not very portable. If we lost our TeamCity server with no backups (unlikely but still), we'd have to spend a good while getting things back up and running.
+Lately I've been doing a lot of work using .Net Core and basically, it's great. Since I'm not building out using more legacy .Net stuff, that means as well that I can try out new things and processes. Usually for a standard .Net project I'd use TeamCity, which is really good to work with in a standard workflow, but it's very Windows-centric; things are configured through GUIs and checkboxes and forms. The main thing I don't like about this is that it's not very portable. If we lost our TeamCity server with no backups (unlikely but still), we'd have to spend a good while getting things back up and running.
 
 Enter [CircleCI](https://circleci.com/); CircleCI is a more straightforward and modern approach to CI in my opinion, without a lot of the legacy features and issues that tend to crop up from time to time when configuring a build in TeamCity. The premise is pretty simple, you specify a [yaml](https://en.wikipedia.org/wiki/YAML) configuration file with a few commands to run, and on check-in to git it reads the config file (stored in the same repository) and builds out accordingly, running tests and doing all the great stuff that CI does.
 
 ## Setting It All Up
 
-So to combine the two, let's look at my yaml file that I ended up with, and then go through it line by line:
+So to combine the CircleCI and .Net Core, let's look at my yaml file that I ended up with, and then go through it line by line:
 
 {% gist 115b770b16d17ce9f73f9076efd5af9a %}
 
