@@ -26,7 +26,7 @@ This chapter introduces leverage as a concept and focuses on productivity from t
 The focus this time was on compound interest as a comparison to compound learning; trying to convey the fact that the earlier you learn something, the more benefit you get from it over time, which is a really useful concept to take on board. It also mentions [Luck Surface Area](http://www.codusoperandi.com/posts/increasing-your-luck-surface-area) in a roundabout way and not directly, but conveys a lot of the same viewpoints.
 
 #### Chapter 3 - Prioritize Regularly
-The title really sums this part up, essentially the idea is that you want to discern what the higher leverage tasks are, and prioritise those. This on the face of it doesn't sound too revolutionary, but the book also goes through common productivity hacks, a lot of which are shared with [the excellent getthing things done for hackers](https://gtdfh.branchable.com/) and also mentions things like pomodoro. Personally I still find it really hard to have the kind of discipline for tackling tasks that the author does, but the techniques here definitely help.
+The title really sums this part up, essentially the idea is that you want to discern what the higher leverage tasks are, and prioritise those. This on the face of it doesn't sound too revolutionary, but the book also goes through common productivity hacks, a lot of which are shared with [the excellent getting things done for hackers](https://gtdfh.branchable.com/) and also mentions things like pomodoro. Personally I still find it really hard to have the kind of discipline for tackling tasks that the author does, but the techniques here definitely help.
 
 ### Part 2 - Execute, Execute, Execute
 
