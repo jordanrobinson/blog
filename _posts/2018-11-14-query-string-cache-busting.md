@@ -5,8 +5,6 @@ description: A comparison of some of the ways you can bust a cache for static as
 permalink: /cache-query-strings
 ---
 
-## In search of the best cache busting query string
-
 If you aren't already, you should be cache busting your scripts and styles, and what better way to do that by making the url unique, clearing both the browser cache and any CDNs that are configured correctly. A good explanation of this can be found [here.](https://stackoverflow.com/questions/9692665/cache-busting-via-params)
 
 But if we were to take this a step further and automate it, what would this look like, and what are our options?
