@@ -28,6 +28,7 @@ This just gets you the version out of your assembly. This does require your buil
 Pros
   - Customisable based on your versioning strategy
   - Should produce unique version strings and bust accordingly
+
 Cons
   - Requires a lot of setup on your part in terms of the CI pipeline
   - Since it relies on a lot of other things working, can break
@@ -46,6 +47,7 @@ Although like I say there's a few problems with it on larger projects.
 
 Pros
  - Very quick to get up and running
+
 Cons
  - Not as accurate as the other methods
  - Lots of drawbacks the larger your project gets
@@ -68,5 +70,6 @@ Pros
  - Reproducible builds
  - Consistent across different servers or docker instances
  - Easy to pin down if changes break something
+
 Cons
  - Setup can be fiddly
