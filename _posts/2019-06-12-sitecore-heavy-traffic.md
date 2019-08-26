@@ -37,4 +37,4 @@ Scaling out APIs based on Sitecore is no trivial task, but there are a few point
 
 For your more frequently hit APIs, I would also recommend putting [Varnish](https://varnish-cache.org/intro/index.html) in front of the API, Varnish is a static caching layer. I've seen it handle truly staggering amounts of traffic, I really can't recommend it enough.
 
-Finally, for assets, using a CDN is best practice, and I've wrote a few bits and pieces on that before that you might want to check out. (https://blog.jordanrobinson.co.uk/sitecore-and-cloudfront)
+Finally, for assets, using a CDN is best practice, and [I've wrote a few bits and pieces on that before that you might want to check out.](https://blog.jordanrobinson.co.uk/sitecore-and-cloudfront)
