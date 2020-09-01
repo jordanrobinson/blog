@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Book Report - Building Microservices
-description: Thoughts on the book "The Effective Engineer" by Endmond Lau
+description: Thoughts on the book "Building Microservices" by Sam Newman
 permalink: /building-microservices
 ---
 
