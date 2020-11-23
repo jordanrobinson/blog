@@ -66,7 +66,7 @@ And as such let's set up a test that looks for this. The first step is to allow 
 
 This lets us start up the server at the start of the test suite, runs the tests, and stops the server once our tests are done. This is a pretty common pattern in component and integration tests and because we've modularised the starting of our server, we can simply call `start-server` here from our `core.clj` and it will spin up a fresh server for us. In a more complicated setup you would likely want to have this on a random free port instead of using the port hardcoded in `core.clj` but, like most of this example, a lot of it can be swapped out later.
 
-Once we have that, we can add our test, which as a whole, should look like this:
+Once we have that, we can add our test, which as a whole file, should look like this:
 
 {% gist facfae126370a6c26ced361fa8979ce8 test.clj %}
 
