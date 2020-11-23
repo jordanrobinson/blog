@@ -36,6 +36,8 @@ And we'll need to modify our `core.clj` to be able to start something that can r
 
 Since this is a more basic tutorial, while we're here let's talk about this in a little bit more detail, there's essentially three parts to this file.
 
+### The core file
+
 {% gist facfae126370a6c26ced361fa8979ce8 core-1.clj %}
 
 First off there are the imports, which are pretty standard. Because this is the `core.clj` generated for us by the `lein` command, we also have a [`:gen-class`](https://clojuredocs.org/clojure.core/gen-class). We're also using [`:require`](https://clojuredocs.org/clojure.core/require) with `:as` to be able to alias the libraries, so we can be more specific in the body of the code, as well as giving meaningful names to things instead of long namespaces.
@@ -64,7 +66,7 @@ And as such let's set up a test that looks for this. The first step is to allow 
 
 This lets us start up the server at the start of the test suite, runs the tests, and stops the server once our tests are done. This is a pretty common pattern in component and integration tests and because we've modularised the starting of our server, we can simply call `start-server` here from our `core.clj` and it will spin up a fresh server for us. In a more complicated setup you would likely want to have this on a random free port instead of using the port hardcoded in `core.clj` but, like most of this example, a lot of it can be swapped out later.
 
-Once we have that, we can add our test, which should look like this:
+Once we have that, we can add our test, which as a whole, should look like this:
 
 {% gist facfae126370a6c26ced361fa8979ce8 test.clj %}
 
@@ -74,10 +76,10 @@ Here we're using [http-kit](https://github.com/http-kit/http-kit) to make a simp
 
 Now that we have a red test, we're going to want to turn it green, which in this case is actually a little simpler than the rest of the setup so far. We can make our `resource.clj` look like this:
 
-{% gist facfae126370a6c26ced361fa8979ce8 test.clj %}
+{% gist facfae126370a6c26ced361fa8979ce8 resource.clj %}
 
 Which adds our route to the `make-routes` function, and uses liberator to define the resource. Of particular note here is the `:handle-ok` which is how Liberator defines what will be returned for the OK status code. This can be a function, so you can have much more complicated implementations than this, but this makes a good start.
 
-With this, our test _should_ be green!
+With this, we just need to run a `lein test` and our test _should_ be green!
 
 With such a simple example there's not too much refactoring for us to do now, but we can definitely add more tests, like checking the status code of the response, or what happens if we hit an endpoint that isn't yet set up.
