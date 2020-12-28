@@ -1,13 +1,15 @@
 ---
 layout: post
-title: Chaining Requests and using Variables in Insomnia
+title: Chaining Requests and Using Variables in Insomnia
 description: A quick walkthrough on how to chain requests using variables, in the rest client Insomnia.
 permalink: /insomnia-chained-requests
 ---
 
 ## Insomnia
 
-[Insomnia](https://insomnia.rest) is an open source rest client often thought of as a lightweight modern alternative to [Postman](https://www.postman.com/). In the past year or so I've used it a lot more than I have Postman, if only due to the quicker startup times, less bloat, and much easier to use UX. I'd really recommend it, and it supports importing a lot of things, such as collections, from Postman. While there isn't support for some of the more esoteric features in Postman, Insomnia makes up for it by being immensely more usable.
+[Insomnia](https://insomnia.rest) is an open source rest client often thought of as a lightweight modern alternative to [Postman](https://www.postman.com/). In the past year or so I've used it a lot more than I have Postman, if only due to the quicker startup times, less bloat, and much easier to use UX. 
+
+I'd really recommend it, switching is easy too, as it supports importing a lot of things, such as collections, from Postman. While there isn't support for some of the more esoteric features in Postman, Insomnia makes up for it by being immensely more usable.
 
 ## Chained Requests
 
@@ -19,7 +21,9 @@ Firstly, you will need to have an environment to store your variable in, this is
 
 ![insomnia environments](https://user-images.githubusercontent.com/1202911/103244551-47c3e380-4955-11eb-8d7d-51724ee18c11.png)
 
-Then, you'll need to add a variable for the variable you want to pass along between requests. The syntax of these environments is JSON, so you can just quite happily call your variable whatever you want. Once you have it you'll want to triger the autocomplete for the value (ctrl + space) and select `Response -> Body Attribute`. Note you can also have headers and urls here, but for the example we have let's just use an attribute from the response body.
+Then, you'll need to add a variable for the variable you want to pass along between requests. The syntax of these environments is JSON, so you can just quite happily call your variable whatever you want. Once you have it you'll want to triger the autocomplete for the value (ctrl + space) and select `Response -> Body Attribute`. 
+
+Note you can also have headers and urls here, but for the example we have let's just use an attribute from the response body.
 
 ![variable setup](https://user-images.githubusercontent.com/1202911/103244555-48f51080-4955-11eb-9931-85490aaa6753.png)
 
