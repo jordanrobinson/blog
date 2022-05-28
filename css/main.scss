@@ -19,7 +19,8 @@ html {
 
 a {
     @media (prefers-color-scheme: dark) {
-        color: $dark-link-color;
+        color: $dark-text-color;
+        text-decoration: underline;
     }
     
     @media (prefers-color-scheme: light) {
@@ -37,6 +38,10 @@ h3 {
 .content {
     overflow: hidden;
     p {
+        @media (prefers-color-scheme: dark) {
+            color: $dark-text-color;
+        }
+
         font-size: 1em;
         line-height: 1.5em;
         margin: 0 0 1.5em 0;
