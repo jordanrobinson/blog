@@ -18,8 +18,14 @@ html {
 }
 
 a {
-    color: $text-color;
-    @include link-underline($background-color, $text-color, $grey-color);
+    @media (prefers-color-scheme: dark) {
+        color: $dark-link-color;
+    }
+    
+    @media (prefers-color-scheme: light) {
+        color: $text-color;
+        @include link-underline($background-color, $text-color, $grey-color);
+    }
 }
 
 h3 {
@@ -61,7 +67,13 @@ h3 {
 }
 
 .post-meta {
-    color: $grey-color;
+    @media (prefers-color-scheme: dark) {
+        color: $dark-post-meta-color;
+    }
+    
+    @media (prefers-color-scheme: light) {
+        color: $grey-color;
+    }
     p {
         line-height: 1.3333em;
         display: inline-block;
@@ -91,8 +103,11 @@ h3 {
 
 .header-link {
     margin-top: 1.5em;
-    a {
-        text-decoration: none;
+    
+    @media (prefers-color-scheme: light) {
+        a {
+            text-decoration: none;
+        }
     }
 }
 
@@ -110,8 +125,16 @@ h3 {
 }
 
 .page {
-    background-color: $background-color;
-    color: $text-color;
+    @media (prefers-color-scheme: dark) {
+        background-color: $dark-background-color;
+        color: $dark-text-color;
+    }
+    
+    @media (prefers-color-scheme: light) {
+        background-color: $background-color;
+        color: $text-color;
+    }
+
     font-family: $content-font;
     margin: 0 1.5em;
 }
