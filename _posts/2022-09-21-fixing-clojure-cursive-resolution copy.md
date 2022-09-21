@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Clojure, Cursive - Fixing issues when resolving symbols
+title: Cursive - Fixing other issues when resolving symbols
 description: Brief description of how to solve a common error in Cursive, the Clojure IDE
 permalink: /clojure-cursive-fixing-symbol-resolution
 ---
