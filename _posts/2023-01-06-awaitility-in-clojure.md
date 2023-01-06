@@ -51,18 +51,7 @@ We can go a bit further with this and do things like change the wait time, which
 
 If we then also change the criteria to be a bit more stringent such as `> 0.95`, we should be able to get a timeout if we run a few times.
 
-```
-Reading is... 0.14748365188970014
-Reading is... 0.39006578072452525
-Reading is... 0.11361210088909512
-Reading is... 0.3491163467675231
-Reading is... 0.7100413898618688
-Reading is... 0.4931516769505109
-Reading is... 0.9274004405826166
-Reading is... 0.776093982387096
-Reading is... 0.7668150587110371
-org.awaitility.core.ConditionTimeoutException: Condition service.outcomes.resource_test$check_reactor_is_ready was not fulfilled within 1 seconds.
-```
+{% gist 32a2e5951997c1139a2ce68afb5e13bb output.txt %}
 
 Finally let's clean it up a little and put it into a threaded form so it's a bit easier to read:
 
