@@ -5,13 +5,12 @@ description: An introduction to using awaitility-clj, a Clojure wrapper for Awai
 permalink: /awaitility-clj-library
 ---
 
-## awaitility-clj
-
 As you may have guessed from my [earlier post on Awaitility](/awaitility-clojure), currently at work I'm working with a lot of asynchronous systems. As a result, it made sense to make things a bit slicker in terms of testing them.
 
 So, to do this I've wrapped the code from the previous post into a clojure library called `awaitility-clj` that can be found here:
 
 Github: [https://github.com/mypulse-uk/awaitility-clj](https://github.com/mypulse-uk/awaitility-clj)
+
 Clojars: [https://clojars.org/ai.mypulse/awaitility-clj](https://clojars.org/ai.mypulse/awaitility-clj)
 
 And using it is as simple as
